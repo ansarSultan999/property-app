@@ -34,6 +34,16 @@ export default function Home() {
             />
             Property Page
           </Link>
+          <Link href="/notFound">
+            <Image
+              className="dark:invert"
+              src="https://nextjs.org/icons/vercel.svg"
+              alt="Vercel logomark"
+              width={20}
+              height={20}
+            />
+            Not Found Page
+          </Link>
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
